@@ -1,6 +1,6 @@
 .App-header {
     background-color: #000000;
-    max-height: 7rem;
+    max-height: 5rem;
     width: 100vw;
     position: relative;
     display: flex;
@@ -12,13 +12,13 @@
 }
 
 .App-header h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #ffffff;
     margin: 0;
 }
 
 .App-header h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #ffffff;
     margin: 0;
 }
