@@ -1,0 +1,19 @@
+.navMenu {
+    display: flex; /* 1 */
+    justify-content: center; /* 2 */
+    padding: 1rem 2rem; /* 3 */
+    background: #cfd8dc; /* 4 */
+    align-items: center; /* Align items vertically */
+}
+
+.navLink {
+    margin: 0 2rem; /* Add space between links */
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+    font-size: 1.2rem; /* Increase font size */
+    font-weight: bold;
+}
+
+.navLink:hover {
+    color: rgb(0, 153, 255); /* Change color on hover */
+}
