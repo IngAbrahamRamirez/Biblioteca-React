@@ -1,0 +1,86 @@
+.noBooks{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.booksContainer{
+    display: grid;
+    max-width: 90%;
+    grid-area: auto;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #D2B48C;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem #000;
+
+}
+
+.book{
+    display: flex;
+    height: 8rem;
+    width: 12rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem #000;
+    background-color: #004080;
+}
+.book:hover{
+    border: 6px solid rgba(98, 182, 72, 0.5);
+}
+
+.bookLink{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.searchContainer{
+    margin: 10px;
+    margin-bottom: 0%;
+}
+.searchBar{    
+    margin: 5px;
+}
+.searchButtonsContainer{
+    display: grid;
+    max-width: 28%;
+    grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
+    justify-content: center;
+    padding: auto;
+    margin: auto;   
+}
+
+.searchButton{
+    border-radius: 10px;
+    background-color: #004080;
+    color: white;
+    padding: 6px;
+    margin-right: 8px;
+    box-shadow: 0 0 0.5rem #000;
+}
+.searchButton:hover{
+    border: 3px solid rgba(98, 182, 72, 0.5);
+}
+.fetchAllBooks{
+    border-radius: 10px;
+    background-color: #004080;
+    color: white;
+    padding: 6px;
+    margin-right: 8px;
+    box-shadow: 0 0 0.5rem #000;
+}
+.fetchAllBooks:hover{
+    border: 3px solid rgba(98, 182, 72, 0.5);
+}
