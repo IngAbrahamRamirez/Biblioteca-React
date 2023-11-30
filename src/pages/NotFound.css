@@ -1,0 +1,22 @@
+/* Estilos para el contenedor principal */
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Estilos para el título */
+.container h1 {
+    font-size: 36px;
+    color: #ff0000;
+}
+
+/* Estilos para el mensaje de error */
+.container p {
+    font-size: 18px;
+    color: #333333;
+}
+
+.link {
+    color: #ff0000;
+    text-decoration: none;
+}
