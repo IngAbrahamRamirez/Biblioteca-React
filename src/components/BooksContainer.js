@@ -67,7 +67,7 @@ function BooksContainer() {
     const noBooks = () => {
         return (
             <div className="noBooks">
-                <h3>Atualmente no hay registros que concuerden con la consulta</h3>
+                <h3>Actualmente no hay registros que concuerden con la consulta</h3>
                 <button className="fetchAllBooks" onClick={() => {fetchBooks()}}> Mostrar todos los libros</button>
             </div>
         );
